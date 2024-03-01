@@ -8,7 +8,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="expression">MIT</license>
 		<!-- <icon>icon.png</icon> -->
-		<projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+		<projectUrl>https://github.com/reneduesmann/PluginsBase</projectUrl>
 		<description>
 			Abstraction layer for Dynamics 365 IPlugin interface providing utilities for plugin development. Includes features like conditional triggers for messages, entity names, and stages, and simplified access to IServiceProvider interfaces.
 		</description>
