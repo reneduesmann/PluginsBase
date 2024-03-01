@@ -3,7 +3,7 @@
 	<metadata>
 		<id>RD.PluginsBase</id>
 		<version>1.0.0</version>
-		<title></title>
+		<title>PluginsBase</title>
 		<authors>Rene Duesmann</authors>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="expression">MIT</license>
