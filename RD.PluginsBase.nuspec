@@ -8,6 +8,7 @@
 		<owners>Rene Duesmann</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="expression">MIT</license>
+		<readme>README.md</readme>
 		<!-- <icon>icon.png</icon> -->
 		<projectUrl>https://github.com/reneduesmann/PluginsBase</projectUrl>
 		<description>
@@ -32,5 +33,7 @@
 		<file src="PluginBase\Extensions\*.cs" target="contentFiles\any\any\libs\PluginsBase\Extensions" />
 		<file src="PluginBase\Messages\*.cs" target="contentFiles\any\any\libs\PluginsBase\Messages" />
 		<file src="PluginBase\PluginBase.cs" target="contentFiles\any\any\libs\PluginsBase" />
+
+		<file src="README.md" target="" />
 	</files>
 </package>
