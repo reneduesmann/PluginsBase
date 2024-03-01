@@ -7,7 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RD.PluginsBase", "PluginBas
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30C88FFE-C2B2-4D49-BDB9-D049D651EDC7}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
 		RD.PluginsBase.nuspec = RD.PluginsBase.nuspec
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
