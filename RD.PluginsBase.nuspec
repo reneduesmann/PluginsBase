@@ -5,6 +5,7 @@
 		<version>1.0.0</version>
 		<title>PluginsBase</title>
 		<authors>Rene Duesmann</authors>
+		<owners>Rene Duesmann</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="expression">MIT</license>
 		<!-- <icon>icon.png</icon> -->
@@ -20,16 +21,16 @@
 		</dependencies>
 	</metadata>
 	<files>
-		<file src="Contexts\*.cs" target="content\libs\PluginsBase\Contexts" />
-		<file src="Enums\*.cs" target="content\libs\PluginsBase\Enums" />
-		<file src="Extensions\*.cs" target="content\libs\PluginsBase\Extensions" />
-		<file src="Messages\*.cs" target="content\libs\PluginsBase\Messages" />
-		<file src="PluginBase.cs" target="content\libs\PluginsBase" />
+		<file src="PluginBase\Contexts\*.cs" target="content\libs\PluginsBase\Contexts" />
+		<file src="PluginBase\Enums\*.cs" target="content\libs\PluginsBase\Enums" />
+		<file src="PluginBase\Extensions\*.cs" target="content\libs\PluginsBase\Extensions" />
+		<file src="PluginBase\Messages\*.cs" target="content\libs\PluginsBase\Messages" />
+		<file src="PluginBase\PluginBase.cs" target="content\libs\PluginsBase" />
 
-		<file src="Contexts\*.cs" target="contentFiles\any\any\libs\PluginsBase\Contexts" />
-		<file src="Enums\*.cs" target="contentFiles\any\any\libs\PluginsBase\Enums" />
-		<file src="Extensions\*.cs" target="contentFiles\any\any\libs\PluginsBase\Extensions" />
-		<file src="Messages\*.cs" target="contentFiles\any\any\libs\PluginsBase\Messages" />
-		<file src="PluginBase.cs" target="contentFiles\any\any\libs\PluginsBase" />
+		<file src="PluginBase\Contexts\*.cs" target="contentFiles\any\any\libs\PluginsBase\Contexts" />
+		<file src="PluginBase\Enums\*.cs" target="contentFiles\any\any\libs\PluginsBase\Enums" />
+		<file src="PluginBase\Extensions\*.cs" target="contentFiles\any\any\libs\PluginsBase\Extensions" />
+		<file src="PluginBase\Messages\*.cs" target="contentFiles\any\any\libs\PluginsBase\Messages" />
+		<file src="PluginBase\PluginBase.cs" target="contentFiles\any\any\libs\PluginsBase" />
 	</files>
 </package>

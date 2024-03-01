@@ -5,6 +5,11 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RD.PluginsBase", "PluginBase\RD.PluginsBase.csproj", "{3D9241F7-4630-4C69-BF21-8963B86D2E95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30C88FFE-C2B2-4D49-BDB9-D049D651EDC7}"
+	ProjectSection(SolutionItems) = preProject
+		RD.PluginsBase.nuspec = RD.PluginsBase.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
