@@ -14,6 +14,10 @@ Install the NuGet package from the NuGet Package Manager or from the package man
 Install-Package RD.PluginsBase
 ```
 
+### Important to Know
+> [!IMPORTANT]
+> When installing this nuget package, the files will be copied in the project in a `libs` directory to prevent using ILMerge.
+
 ## Table of Contents
 * [Prerequisite](#prerequisite)
 * [Why](#why)
