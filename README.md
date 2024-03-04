@@ -1,8 +1,8 @@
-## RD.PluginBase - Base Class for Plugins in Dynamics 365 CRM
+## RD.PluginsBase - Base Class for Plugins in Dynamics 365 CRM
 
 ### Overview
 
-RD.PluginBase provide a base class for dynamics 365 plugins to write better and more clearly structured code.
+RD.PluginsBase provide a base class for dynamics 365 plugins to write better and more clearly structured code.
 You get easy access of the input and output parameters of the provided messages without having to do anything manually.
 
 ### License
