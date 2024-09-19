@@ -61,7 +61,7 @@ public class CrudContext<TEntity> : PluginContext where TEntity : Entity, new()
         return targetObject switch
         {
             EntityReference entityReference => new TEntity() { Id = entityReference.Id, LogicalName = entityReference.LogicalName },
-            Entity entity => (TEntity)entity,
+            Entity entity => entity.ToEntity<TEntity>(),
             _ => throw new ArgumentException("Unable to type Target.")
         };
     }
@@ -74,7 +74,7 @@ public class CrudContext<TEntity> : PluginContext where TEntity : Entity, new()
 
         return preImage is null
             ? new TEntity()
-            : (TEntity)preImage;
+            : preImage.ToEntity<TEntity>();
     }
 
     private TEntity GetPostImage()
@@ -85,6 +85,6 @@ public class CrudContext<TEntity> : PluginContext where TEntity : Entity, new()
 
         return postImage is null
             ? new TEntity()
-            : (TEntity)postImage;
+            : postImage.ToEntity<TEntity>();
     }
 }
