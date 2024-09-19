@@ -46,14 +46,14 @@ public class CalculatePriceStep<TEntity> : PluginStep<CalculatePriceRequest, TEn
         
     }
 
-    public CalculatePriceStep(int stage, Action<CalculatePriceContext<Entity>> action)
+    public CalculatePriceStep(int stage, Action<CalculatePriceContext<TEntity>> action)
         : this((PluginStage)stage, action)
     {
         
     }
 
-    public CalculatePriceStep(PluginStage stage, Action<CalculatePriceContext<Entity>> action)
-        : base(stage, context => action(new CalculatePriceContext<Entity>(context)))
+    public CalculatePriceStep(PluginStage stage, Action<CalculatePriceContext<TEntity>> action)
+        : base(stage, context => action(new CalculatePriceContext<TEntity>(context)))
     {
         
     }
